@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get '/students' do
-    erb: index
+    erb :index
   end
 end
